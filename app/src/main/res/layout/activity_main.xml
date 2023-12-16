@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Stop Watch App"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/stopwatch"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/stopwatch"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:textColor="@color/white"
+            android:textSize="64sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/stopwatch"
+            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintStart_toStartOf="@+id/stopwatch"
+            app:layout_constraintTop_toBottomOf="@+id/stopwatch">
+        </Chronometer>
+
+
+        <Button
+            android:id="@+id/startStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/yellow"
+            android:text="Start"
+            android:textColor="@color/darkblue"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/lapReset"
+            app:layout_constraintTop_toBottomOf="@+id/chronometer" />
+        <Button
+            android:id="@+id/lapReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="Lap"
+            android:textSize="18sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/darkblue"
+            app:layout_constraintEnd_toStartOf="@+id/startStop"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chronometer" />
+
+
+        <ImageView
+            android:id="@+id/addtime"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="56dp"
+            android:src="@drawable/time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lapReset"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <TextView
+            android:id="@+id/addedtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="00 Min"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/addtime"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="@+id/addtime"
+            app:layout_constraintTop_toBottomOf="@+id/addtime" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="176dp"
+            android:layout_height="199dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/startStop"
+            app:layout_constraintHorizontal_bias="0.56"
+            app:layout_constraintStart_toStartOf="@+id/startStop"
+            app:layout_constraintTop_toBottomOf="@+id/startStop" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
