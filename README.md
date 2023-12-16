@@ -1,6 +1,12 @@
 # Android_StopWatchApp_With_Kotlin_And_XML_Design
 **Project Overview**
 The Stopwatch app is a simple and intuitive tool for measuring elapsed time. It provides basic stopwatch features such as start, stop, and reset buttons, as well as the ability to record and display lap times.
+**Screen Shots**
+
+![A screenshot of the Stopwatch app with main screen.](app/src/main/res/drawable/screenshot_11.jpg "stopwatch, time management, productivity")
+![A screenshot of the Stopwatch app showing the added time which chosen by user.](app/src/main/res/drawable/screenshot_12.jpg "stopwatch, time management, productivity")
+![A screenshot of the Stopwatch app showing the pop up for adding time by user.](app/src/main/res/drawable/screenshot_13.jpg "stopwatch, time management, productivity")
+
 **Features**
 * Start, stop, and reset buttons
 * Lap time recording and display
