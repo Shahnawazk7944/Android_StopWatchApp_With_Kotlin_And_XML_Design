@@ -3,7 +3,7 @@
 The Stopwatch app is a simple and intuitive tool for measuring elapsed time. It provides basic stopwatch features such as start, stop, and reset buttons, as well as the ability to record and display lap times.
 **Screen Shots**
 
-<img src="app/src/main/res/drawable/screenshot_11.jpg" width="150" height="280">
+<img src="app/src/main/res/drawable/screenshot_11.jpg" width="150" height="280" align="center">
 <img src="app/src/main/res/drawable/screenshot_12.jpg" width="150" height="280">
 <img src="app/src/main/res/drawable/screenshot_13.jpg" width="150" height="280">
 
