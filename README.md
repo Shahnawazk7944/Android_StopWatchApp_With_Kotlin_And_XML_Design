@@ -4,7 +4,7 @@ The Stopwatch app is a simple and intuitive tool for measuring elapsed time. It 
 **Screen Shots**
 
 <img src="app/src/main/res/drawable/screenshot_11.jpg" width="150" height="280" align="center">
-<img src="app/src/main/res/drawable/screenshot_12.jpg" width="150" height="280">
+<p align="center"><img src="app/src/main/res/drawable/screenshot_12.jpg" width="150" height="280" ></p>
 <img src="app/src/main/res/drawable/screenshot_13.jpg" width="150" height="280">
 
 **Features**
